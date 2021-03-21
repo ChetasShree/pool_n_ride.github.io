@@ -3,7 +3,7 @@
 Official Entry of Team B1NARY B0SSES , from SRM Institute of Science and Technology, Kattankulathur, India, to HackNITR 2.0. <br>
 
 ![Collaborators](https://img.shields.io/badge/collaborators-4-red)
-![Status](https://img.shields.io/badge/status-done-orange)
+![Status](https://img.shields.io/badge/status-done-green)
 ![Issues](https://img.shields.io/badge/issues-0-blue)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) 
