@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+ <html class="not-ie no-js" lang="en">  
+    <head>
+
+        <meta charset="utf-8">
+        <title>Pool n Ride</title>
+        <link rel="icon" href="img/pnr.ico">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+
+       
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+       
+        <link href="css/jquery.idealforms.css" rel="stylesheet">
+       
+        <link href="css/jquery.idealselect.css" rel="stylesheet">
+       
+        <link href="css/slicknav.css" rel="stylesheet">
+      
+        <link href="css/style.css" rel="stylesheet">
+
+       
+        <script src="js/modernizr.js"></script>
+
+      
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+
+    </head>
+
+    <body>
+
+        <header class="header">
+
+            <div class="top-menu">
+
+                <section class="container">
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div  class="user-log">
+                                <div class="buttuns" id="buttuns-id">
+                                <a data-toggle="modal" data-target="#loginModal" id="login-a">
+                                    Log in
+                                </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a id="signup-a" data-toggle="modal" data-target="#regModal">
+                                    <span></span><span></span><span></span><span></span>Sign up
+                                </a></div>
+                                <div id="wlcm-part" style="display:none;">
+                                <p id="wlcm" style="z-index: 1500; color:white; margin:0px;"></p>
+                                </div>
+                            </div>
+                        </div>
+                       <div class="col-md-8 col-sm-8 col-xs-12">
+
+                            <ul class="social-icons">
+                               
+                                <li id="logout-a">
+                                    <a id="smth">LogOut
+                                    </a>
+                                </li>
+                             <li>
+                                    <a class="facebook" href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="twitter" href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="google" href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        
+
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="main-baner">
+
+                <div class="fullscreen background parallax clearfix" style="background:linear-gradient(-135deg,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0)),url('img/gif.gif');" data-img-width="1600" data-img-height="1064">
+
+                    <div class="main-parallax-content">
+
+                        <div class="second-parallax-content">
+
+                            <section class="container">
+
+                                <div class="row">
+
+                                    <div class="main-header-container clearfix">
+
+                                        <div class="col-md-4 col-sm-12 col-xs-12">
+
+                                            <div class="logo">
+                                                <h1>Pool n Ride</h1>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-8 col-sm-8 col-xs-12">
+
+                                            <nav id="nav" class="main-navigation">
+
+                                                <ul class="navigation">
+                                                    <li>
+                                                        <a href="index.html">Home</a>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <a href="rides.html">rides</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="add-ride.html">Ride Now</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="teams.html">About Us</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="contact-page.html">Contact</a>
+                                                    </li>
+                                                </ul>
+
+                                            </nav>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="main-content">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="page-content">
+
+                        <div class="services clearfix">
+
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                                <div class="page-sub-title textcenter">
+                                    <h2>Services</h2>
+                                    <div class="line"></div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+
+                                <article class="service">
+
+                                    <i class="fa fa-car"></i>
+
+                                    <h3>Share your ride</h3>
+                                    <p>Are you getting sick of traveling alone and spent so much money on gas? Share your ride today,and forget about this problems.</p>
+
+
+                                </article>
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+
+                                <article class="service">
+
+                                    <i class="fa fa-users"></i>
+
+                                    <h3>Find new friends</h3>
+                                    <p>Finding new friends is easier than ever,nothing makes better friendship than spending few hours casually chatting with some interesting people.</p>
+
+                                </article><!-- end .service -->
+
+                            </div><!-- end .col-md-4 -->
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+
+                                <article class="service">
+
+                                    <i class="fa fa-map-marker"></i>
+
+                                    <h3>Go to new places</h3>
+                                    <p> Find some new favourite place to chill out,you have no longer got excuse for not travelling and discovering. </p>
+
+                                </article><!-- end .service -->
+
+                            </div><!-- end .col-md-4 -->
+
+                        </div><!-- end .services -->
+
+                        <div class="clearfix"></div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+
+                            <div class="background parallax" style="background-image:url('img/XWBIL5.jpg');" data-img-width="1600" data-img-height="1064">
+
+                                <div class="main-parallax-content">
+
+                                    <div class="second-parallax-content">
+
+                                        <div class="parallax-content clearfix">
+
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="site-stat">
+                                                    <span class="counter">5,000</span>
+                                                    <span>Happy users</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="site-stat">
+                                                    <span class="counter">7,000</span>
+                                                    <span>Successful rides</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="site-stat">
+                                                    <span class="counter">600,000</span>
+                                                    <span>Miles traveled in a good company</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="last-rides">
+
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                                <div class="page-sub-title textcenter">
+                                    <h2>Last rides</h2>
+                                    <div class="line"></div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                                <article class="ride-box clearfix">
+
+                                    <div class="ride-content">
+                                        <h3><a href="#">From Plovdiv to Sofia</a></h3>ride by <a href="#">Stefan Valkov</a>
+                                    </div>
+
+                                    <ul class="ride-meta">
+
+                                        <li class="ride-date">
+                                            <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                <i class="fa fa-calendar"></i>
+                                                July 20, 2014 at 19:00 PM
+                                            </a>
+                                        </li>
+
+                                        <li class="ride-people">
+                                            <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                <i class="fa fa-user"></i>
+                                                1
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-file"></i>
+                                                Read more
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                </article>
+
+                                <article class="ride-box clearfix">
+
+                                    <div class="ride-content">
+                                        <h3><a href="#">From Milano to Rome</a></h3>ride by <a href="#">Carlo Corti</a>
+                                    </div>
+
+                                    <ul class="ride-meta">
+
+                                        <li class="ride-date">
+                                            <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                <i class="fa fa-calendar"></i>
+                                                July 18, 2014 at 06:00 AM
+                                            </a>
+                                        </li>
+
+                                        <li class="ride-people">
+                                            <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                <i class="fa fa-user"></i>
+                                                4
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-file"></i>
+                                                Read more
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                </article>
+
+                                <article class="ride-box clearfix">
+
+                                    <div class="ride-content">
+                                        <h3><a href="#">From Lyon to Paris</a></h3>ride by <a href="#">Antoine Bonnet</a>
+                                    </div>
+
+                                    <ul class="ride-meta">
+
+                                        <li class="ride-date">
+                                            <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                <i class="fa fa-calendar"></i>
+                                                July 15, 2014 at 20:00 PM
+                                            </a>
+                                        </li>
+
+                                        <li class="ride-people">
+                                            <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                <i class="fa fa-user"></i>
+                                                3
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-file"></i>
+                                                Read more
+                                            </a>
+                                        </li>
+
+                                    </ul><!-- end .ride-meta -->
+
+                                </article><!-- end .ride-box -->
+
+                                <article class="ride-box clearfix">
+
+                                    <div class="ride-content">
+                                        <h3><a href="#">From Barcelona to Madrid</a></h3>ride by <a href="#">Adriana Bello</a>
+                                    </div>
+
+                                    <ul class="ride-meta">
+
+                                        <li class="ride-date">
+                                            <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                <i class="fa fa-calendar"></i>
+                                                July 10, 2014 at 09:00 AM
+                                            </a>
+                                        </li><!-- end .ride-date -->
+
+                                        <li class="ride-people">
+                                            <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                <i class="fa fa-user"></i>
+                                                2
+                                            </a>
+                                        </li><!-- end .ride-people -->
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-file"></i>
+                                                Read more
+                                            </a>
+                                        </li>
+
+                                    </ul><!-- end .ride-meta -->
+
+                                </article><!-- end .ride-box -->
+
+                                <article class="ride-box clearfix">
+
+                                    <div class="ride-content">
+                                        <h3><a href="#">From Munich to Berlin</a></h3>ride by <a href="#">Albert Becker</a>
+                                    </div>
+
+                                    <ul class="ride-meta">
+
+                                        <li class="ride-date">
+                                            <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                <i class="fa fa-calendar"></i>
+                                                July 08, 2014 at 22:00 PM
+                                            </a>
+                                        </li><!-- end .ride-date -->
+
+                                        <li class="ride-people">
+                                            <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                <i class="fa fa-user"></i>
+                                                1
+                                            </a>
+                                        </li><!-- end .ride-people -->
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-file"></i>
+                                                Read more
+                                            </a>
+                                        </li>
+
+                                    </ul><!-- end .ride-meta -->
+
+                                </article><!-- end .ride-box -->
+
+                                <div class="clearfix"></div>
+
+                                <div class="read-all pagination-margin">
+                                    <a href="rides.html">Read all</a>
+                                </div>
+
+                            </div><!-- end .col-md-12 col-sm-12 col-xs-12 -->
+
+                        </div><!-- end .last-rides -->
+
+                        <div class="clearfix"></div>
+
+                        
+
+                    </div><!-- end .page-content -->
+
+                </div><!-- end .row -->
+            </div><!-- end .container -->
+
+        </section><!-- end .main-content -->
+
+        <footer id="footer">
+
+            <div class="footer-copyright">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                        </div>
+
+                    </div><!-- end .row -->
+                </div><!-- end .container -->
+
+            </div><!-- end .footer-copyright -->
+
+        </footer><!-- end #footer -->
+
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div><!-- end .modal-header -->
+
+                    <div class="modal-body">
+                        <form action="" novalidate autocomplete="off" class="idealforms login">
+
+                            <div class="log-header">
+                                <span class="log-in">Log in</span>
+                            </div>
+
+                            <div class="field">
+                                <input id="l-email" name="email" type="text" placeholder="E-Mail">
+                                <span class="error"></span>
+                            </div>
+
+                            <div class="field">
+                                <input type="password" id="l-password" name="password" placeholder="Password">
+                                <span class="error"></span>
+                            </div>
+
+                            <div class="field buttons">
+                                <button type="submit" id="login" class="submit btn green-color">Log in</button>
+                            </div>
+
+                            <a href="#" class="log-twitter twitter"><i class="fa fa-twitter"></i>Twitter</a>
+                            <a href="#" class="log-facebook facebook"><i class="fa fa-facebook"></i>Facebook</a>
+
+                            <div class="clearfix"></div>
+
+                        </form><!-- end .login -->
+                    </div><!-- end .modal-body -->
+
+                </div><!-- end .modal-content -->
+            </div><!-- end .modal-dialog -->
+        </div><!-- end .modal -->
+
+        <div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="" novalidate autocomplete="off" class="idealforms reg">
+
+                            <div class="log-header">
+                                <span class="log-in">Sign up</span>
+                            </div>
+
+                            <div class="field">
+                                <input id="s-username" name="username" type="text" placeholder="Username">
+                                <span class="error"></span>
+                            </div>
+
+                            <div class="field">
+                                <input id="s-email" name="email" type="email"  placeholder="E-Mail">
+                                <span class="error"></span>
+                            </div>
+
+                            <div class="field">
+                                <input id="s-password" type="password" name="password" placeholder="Password">
+                                <span class="error"></span>
+                            </div>
+
+                            <div class="field">
+                                <input name="confirmpass" id="s-cpassword" type="password"  placeholder="Confirm Password">
+                                <span class="error"></span>
+                            </div>
+                            <div class="field">
+                                <input name="Mobile" id="s-mobile" type="text"  placeholder="Mobile" required>
+                                <span class="error"></span>
+                            </div>
+
+                            <div class="field buttons">
+                                <button type="submit" id="signup" class="submit btn green-color">Sign up</button>
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                        </form><!-- end .reg -->
+                    </div><!-- end .modal-body -->
+
+                </div><!-- end .modal-content -->
+            </div><!-- end .modal-dialog -->
+        </div><!-- end .modal -->
+        
+        
+        <!-- Javascript -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- Main jQuery -->
+        <script type="text/javascript" src="js/jquery.main.js"></script>
+        <!-- Form -->
+        <script type="text/javascript" src="js/jquery.idealforms.min.js"></script>
+        <script type="text/javascript" src="js/jquery.idealselect.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+        <!-- Menu -->
+        <script type="text/javascript" src="js/hoverIntent.js"></script>
+        <script type="text/javascript" src="js/superfish.js"></script>
+        <!-- Counter-Up  -->
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+        <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+        <!-- Rating  -->
+        <script type="text/javascript" src="js/bootstrap-rating-input.min.js"></script>
+        <!-- Slicknav  -->
+        <script type="text/javascript" src="js/jquery.slicknav.min.js"></script>
+        <script type="module" src="main.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyB8JaAvkicUqyUK5oV053byq6rSjE8LK3Y",
+      authDomain: "form-440a5.firebaseapp.com",
+      databaseURL: "https://form-440a5-default-rtdb.firebaseio.com",
+      projectId: "form-440a5",
+      storageBucket: "form-440a5.appspot.com",
+      messagingSenderId: "726357718963",
+      appId: "1:726357718963:web:8266988d540b240c3bfdc6",
+      measurementId: "G-LJH9PQCHSW"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="js/fb.js"></script>
+
+
+    </body>
+</html>
